@@ -19,6 +19,10 @@ sh install.sh
 ### Fonts
 
     -> SauceCodePro Nerd Font Mono Semiblod
+```shell
+cd /SourceCodePro
+sudo cp *.ttf /usr/local/share/fonts/
+```
 
 ## Uninstall
 
