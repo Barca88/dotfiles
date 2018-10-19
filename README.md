@@ -16,6 +16,9 @@ git clone https://github.com/nelsonmestevao/spells   ~/.spells
 cd ~/.dotfiles
 sh install.sh
 ```
+### Fonts
+
+    -> SauceCodePro Nerd Font Mono Semiblod
 
 ## Uninstall
 
