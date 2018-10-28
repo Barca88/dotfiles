@@ -16,13 +16,16 @@ git clone https://github.com/nelsonmestevao/spells   ~/.spells
 cd ~/.dotfiles
 sh install.sh
 ```
-### Fonts
+## Fonts
 
     -> SauceCodePro Nerd Font Mono Semiblod
 ```shell
 cd /SourceCodePro
 sudo cp *.ttf /usr/local/share/fonts/
 ```
+## asdf
+'~/' git clone git@github.com:asdf-vm/asdf.git
+mv asdf .asdf
 
 ## Uninstall
 
