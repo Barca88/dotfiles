@@ -8,7 +8,7 @@ alias s="cd $HOME/Snippets && ls -l"
 alias um="cd $HOME/Code/uminho/"
 
 alias v="nvim"
-
+alias vim="nvim"
 alias r="ranger"
 alias ka="killall"
 alias :q="exit"
