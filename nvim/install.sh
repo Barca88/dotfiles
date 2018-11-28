@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-echo "Starting Neovim:\n"
+echo "Starting Neovim:"
 
 sudo pacman -Syu neovim 
 
@@ -9,4 +9,4 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 ln -sfT ~/.dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 
-echo "Done with nvim\n"
+echo "Done with nvim"
