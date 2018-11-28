@@ -66,6 +66,9 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+#Visual Paradigm
+*.vpp.bak_*
+*.vpp.lck
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 

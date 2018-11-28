@@ -24,7 +24,6 @@ export AUR=(
   rbenv
   google-chrome-stable
   neovim
-  nerd-fonts-complete
   spotify
 )
 
