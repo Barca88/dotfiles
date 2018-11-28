@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-echo "Installing ZSH with OH-MY-ZSH..."
+echo "Installing ZSH with OH-MY-ZSH...\n"
 
 sudo pacman -Syu zsh --needed --noconfirm
 
@@ -14,3 +14,4 @@ ln -sfT "$HOME/.dotfiles/zsh/zshrc"   "$HOME/.zshrc"
 
 chsh -s "$(command -v zsh)"
 
+echo "ZSH finished!!!\n" 

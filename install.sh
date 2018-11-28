@@ -2,18 +2,19 @@
 
 .packages.sh
 
-#echo "Updating packages..."
+echo "Updating packages...\n"
 sudo pacman -Syu --needed --noconfirm
 
+echo "Lets have Fun:\n"
 for pkg in "${PKG[@]}"
 do
-  echo "Installing ${pkg}..."
+  echo "Installing ${pkg}...\n"
   sudo pacman -Syu "$pkg" --needed --noconfirm
 done
 
 for aur in "${AUR[@]}"
 do
-  echo "Installing ${aur}..."
+  echo "Installing ${aur}...\n"
   yaourt -Syu "$aur" --needed --noconfirm
 done
 
@@ -24,9 +25,10 @@ cd ~/.dotfiles
 dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -print)
 for dir in $dirs
 do
-  echo "Installing ${dir}..."
+  echo "Installing ${dir}...\n"
   sh "$dir"/install.sh
 done
 
 cd "$SAVED_DIR"
 
+echo "Thats all for today folks!\n"

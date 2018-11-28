@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-echo "Installling Haskell..."
+echo "Starting Haskell...\n"
+
 sudo pacman -Syu ghc ghc-libs ghc-static cabal-install
 
-ln -sfT ~/.dotfiles/haskell/ghci ~/.ghci
-
+echo "Done with Haskell\n"
