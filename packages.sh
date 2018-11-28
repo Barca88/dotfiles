@@ -12,7 +12,6 @@ export PKG=(
   pandoc
   pandoc-citeproc
   pandoc-crossref
-  ranger
   terminology
   tree
   wget
@@ -21,9 +20,17 @@ export PKG=(
 )
 
 export AUR=(
-  rbenv
-  google-chrome-stable
-  neovim
-  spotify
 )
+
+for pkg in "${PKG[@]}"
+do
+  echo "Installing ${pkg}..."
+  sudo pacman -Syu "$pkg" --needed --noconfirm
+done
+
+for aur in "${AUR[@]}"
+do
+  echo "Installing ${aur}..."
+  yaourt -Syu "$aur" --needed --noconfirm
+done
 

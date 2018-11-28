@@ -1,22 +1,10 @@
 #!/usr/bin/env sh
 
-.packages.sh
-
 echo "Updating packages..."
 sudo pacman -Syu --needed --noconfirm
 
-echo "Lets have Fun:"
-for pkg in "${PKG[@]}"
-do
-  echo "Installing ${pkg}..."
-  sudo pacman -Syu "$pkg" --needed --noconfirm
-done
-
-for aur in "${AUR[@]}"
-do
-  echo "Installing ${aur}..."
-  yaourt -Syu "$aur" --needed --noconfirm
-done
+echo "Begin Packages"
+sh ./packages.sh
 
 SAVED_DIR=$PWD
 
