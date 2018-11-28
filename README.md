@@ -11,28 +11,13 @@
 ## Install
 
 ```shell
-git clone https://github.com/nelsonmestevao/dotfiles ~/.dotfiles
-git clone https://github.com/nelsonmestevao/spells   ~/.spells
+git clone https://github.com/Barca88/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 sh install.sh
 ```
-## Fonts
 
-    -> SauceCodePro Nerd Font Mono Semiblod
-```shell
-cd /SourceCodePro
-sudo cp *.ttf /usr/local/share/fonts/
 ```
 ## asdf
 '~/' git clone git@github.com:asdf-vm/asdf.git
 mv asdf .asdf
 
-## Uninstall
-
-```shell
-cd ~/.dotfiles
-sh uninstall.sh
-cd ~
-rm -rf ~/.dotfiles
-rm -rf ~/.spells
-```
