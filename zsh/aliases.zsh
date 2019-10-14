@@ -1,7 +1,7 @@
 # ALIASES
 
-alias al="nvim ~/.dotfiles/zsh/aliases"
-alias dot="cd $HOME/.dotfiles"
+alias aliases="nvim ~/.dotfiles/zsh/aliases"
+alias dotfiles="cd $HOME/.dotfiles"
 
 alias v="nvim"
 alias vim="nvim"
@@ -19,7 +19,6 @@ alias run="make run"
 
 #PDF 
 alias open="okular"
-alias atomic="cd ~/Projects/atomic/"
 #Sensores
 alias sensors="watch -n 1 -d sensors"
 #Tempo
@@ -31,4 +30,3 @@ alias cheat="curl cheat.sh/latency"
 alias specs="screenfetch"
 
 #Temporary
-alias so="cd ~/Projects/so18-19"
