@@ -19,4 +19,4 @@ done
 
 cd "$SAVED_DIR"
 
-echo "Thats all for today folks!\n"
+echo "Instalation done folks!\n"

@@ -3,4 +3,4 @@
 ln -sfT ~/.dotfiles/config/profile ~/.profile
 
 
-echo "Done whit confg"
+echo "Done with config!"
