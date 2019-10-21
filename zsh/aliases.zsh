@@ -9,14 +9,15 @@ alias ka="killall"
 alias :q="exit"
 
 alias um="cd ~/Universidade/"
-alias bsc='git add --all && git commit -m "$(curl -sk https://whatthecommit.com/index.txt)" && git push'
+alias bsc='git add --all && git commit -m "$(curl -s whatthecommit.com/index.txt)" && git push'
 alias c="clear"
 alias p="cd ~/Projects/"
 
 #Makefile
 alias clean="make clean"
 alias run="make run"
-
+#Kill last suspended job
+alias mata="kill %1"
 #PDF 
 alias open="okular"
 #Sensores
