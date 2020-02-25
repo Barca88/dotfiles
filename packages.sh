@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export PKG=(
+  devtools
   catdoc
   catppt
   curl
@@ -27,9 +28,13 @@ do
   sudo pacman -Syu "$pkg" --needed --noconfirm
 done
 
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
 for aur in "${AUR[@]}"
 do
   echo "Installing ${aur}..."
-  yaourt -Syu "$aur" --needed --noconfirm
+  yay -Syu "$aur" --devel --needed --noconfirm
 done
 
