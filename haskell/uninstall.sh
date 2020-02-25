@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo apt-get remove haskell-platform
+sudo pacman -R ghc ghc-libs ghc-static cabal-install 
 
-unlink ~/.ghci
+echo "Haskell removed\n"
