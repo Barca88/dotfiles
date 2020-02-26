@@ -17,6 +17,7 @@ export PKG=(
   tree
   wget
   xls2csv
+  yay
 )
 
 export AUR=(
