@@ -1,8 +1,14 @@
 #!/usr/bin/env sh
 
 echo "Moving Fonts..."
-sudo mkdir /usr/share/fonts
-sudo cp *.ttf /usr/share/fonts
+
+mkdir  -p ~/.fonts
+cp -f *.ttf ~/.fonts
+cp -f *.sh ~/.fonts
+
+mkdir -p ~/.config/fontconfig/conf.d
+cp -f ./config/* ~/.config/fontconfig/conf.d
+fc-cache -fv ~/fonts
 
 echo "Done with fonts."
 echo "-> You need to change them in preferences <-"
