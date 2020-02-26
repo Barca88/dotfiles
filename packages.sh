@@ -29,9 +29,6 @@ do
   sudo pacman -Syu "$pkg" --needed --noconfirm
 done
 
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
 
 for aur in "${AUR[@]}"
 do
