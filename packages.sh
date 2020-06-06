@@ -1,10 +1,10 @@
 #!/bin/bash
 
 export PKG=(
-  devtools
   catdoc
   catppt
   curl
+  devtools
   diffpdf
   htop
   img2txt
@@ -13,6 +13,7 @@ export PKG=(
   pandoc
   pandoc-citeproc
   pandoc-crossref
+  screenfetch
   terminology
   tree
   wget
