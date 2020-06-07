@@ -24,7 +24,7 @@ alias open="okular"
 alias sensors="watch -n 1 -d sensors"
 #Tempo
 alias tempoBraga="curl -H \"Accept-Language: pt\" http://wttr.in/Braga"
-alias Barca="curl -H \"Accept-Language: pt\" http://wttr.in/Ponte da Barca"
+alias Barca="curl -H \"Accept-Language: pt\" http://wttr.in/Ponte_da_Barca"
 #Awesomeness
 alias map="telnet mapscii.me"
 alias cheat="curl cheat.sh/latency"
