@@ -27,6 +27,8 @@ alias sensors="watch -n 1 -d sensors"
 alias tempoBraga="curl -H \"Accept-Language: pt\" http://wttr.in/Braga"
 alias Barca="curl -H \"Accept-Language: pt\" http://wttr.in/Ponte_da_Barca"
 alias Barca2="curl -H \"Accept-Language: pt\" http://v2d.wttr.in/Ponte_da_Barca"
+alias Viana="curl -H \"Accept-Language: pt\" http://wttr.in/Viana_do_Castelo"
+alias Viana2="curl -H \"Accept-Language: pt\" http://v2d.wttr.in/Viana_do_Castelo"
 #Awesomeness
 alias map="telnet mapscii.me"
 alias cheat="curl cheat.sh/latency"
