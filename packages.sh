@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export PKG=(
+  base-devel
   catdoc
   catppt
   curl
