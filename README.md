@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-## Last version used
+## Last version tested
   * Manjaro-gnome v20.2
   
 #### gnome-terminal not working on this version
