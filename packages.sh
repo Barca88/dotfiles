@@ -23,6 +23,7 @@ export PKG=(
 )
 
 export AUR=(
+  vscode
 )
 
 for pkg in "${PKG[@]}"
