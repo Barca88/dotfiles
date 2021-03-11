@@ -5,8 +5,12 @@
     <img src="https://dotfiles.github.io/images/dotfiles-logo.png" alt="dotfiles" width="400px">
   </a>
 </h1>
-
-[![Build Status](https://semaphoreci.com/api/v1/nelsonmestevao/dotfiles/branches/master/badge.svg)][semaphoreci]
+## Last version used
+  * Manjaro-gnome v20.2
+  ##### gnome-terminal not working on this version
+      * Edit: /etc/locale.gen and uncomment en_US.UTF-8 UTF-8
+      * Run: sudo locale-gen
+      * Proceed with the instalation 
 
 ## Install
 
@@ -18,6 +22,5 @@ sh install.sh
 
 ```
 ## asdf
-'~/' git clone git@github.com:asdf-vm/asdf.git
-mv asdf .asdf
+git clone git@github.com:asdf-vm/asdf.git ~/.asdf
 
